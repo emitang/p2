@@ -12,5 +12,5 @@ I'll be giving my demo during my Wednesday section with Katherine.
 Nothing further!
 
 # Outside Code
-I found my word list at: http://www.desiquintans.com/articles.php?page=nounlist
+I found my word list at: http://www.desiquintans.com/articles.php?page=nounlist <br>
 Stylistic choices for website design based on: http://xkcd.com/
