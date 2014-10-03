@@ -16,4 +16,15 @@ if(isset($_POST['numwords']) && $numwords >= 4 && $numwords <=9) {
 		$password = $password." ".$words[rand(1, 2335)];
 	}
 }
+
+$symbols = file('symbols.txt');
+
+if($_POST['symbol'] == "true") {
+	$password = $password.$symbols[rand(1, 12)];
+}
+
+if($_POST['number'] == "true") {
+	$password = $password.rand(1, 9);
+}
+
 ?>

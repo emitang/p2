@@ -85,8 +85,10 @@
 					<select name = "numwords">
 						<option value = "0">Select...</option>
 						<?php echo $form; ?>
-						<input type = "submit" name = "go!"><br>
 					</select>
+					<br><input type="checkbox" name="symbol" value="true">Include a symbol<br>
+					<input type="checkbox" name="number" value="true">Include a number<br>
+					<input type = "submit" name = "go!"><br>
 				</form>
 			</p>
 	 		<?php 
