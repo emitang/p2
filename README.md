@@ -8,7 +8,7 @@ A password generator inspired by xkcd comic 963. This code takes an input specif
 # Demo
 I'll be giving my demo during my Wednesday section with Katherine. 
 
-# Details for teaching team
+# Details for Teaching Team
 Nothing further!
 
 # Outside Code
