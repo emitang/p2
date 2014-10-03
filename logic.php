@@ -11,7 +11,7 @@ $password = "";
 
 $numwords = $_POST['numwords'];
 
-if(isset($_POST['numwords']) && $numwords <> 0) {
+if(isset($_POST['numwords']) && $numwords >= 4 && $numwords <=9) {
 	for ($i = 0; $i < $numwords; $i++) {
 		$password = $password." ".$words[rand(1, 2335)];
 	}
